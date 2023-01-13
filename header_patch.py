@@ -2,9 +2,10 @@
             if(is_spaces and is_shared_ui):
                 gr.HTML(f'''
                 <div class="gr-prose" style="max-width: 80%">
-                    <p>⚛ Automatic1111 Stable Diffusion Protogen x3.4 Web UI | Running model: darkstorm2150/ProtoGen_X3.4</p>
-                    <p>You can find more information on <a href="this model at civitai.com" style="target=" _blank"="">https://civitai.com/models/3666/protogen-x34-photorealism-official-release</a></p> 
-                    <p> Code by <a href="camenduru" style="target=" _blank"="">https://twitter.com/camenduru</a> </p>
+                    <p>⚛ Automatic1111 Stable Diffusion Protogen x3.4 Web UI | Running model: ProtoGen X3.4</p>
+                    <p>You can find more information on <a href="https://civitai.com/models/3666/protogen-x34-photorealism-official-release" style="target=" _blank"="">this model at civitai.com</a></p>
+                    <p>By using this space, You agree to the <a href="https://civitai.com/models/3666/protogen-x34-photorealism-official-release" style="target=" _blank"="">CreativeML Open RAIL-M License</a></p>     
+                    <p> Code by <a href="https://twitter.com/camenduru" style="target=" _blank"="">camenduru</a> </p>
                 </div>
                 ''')
             elif(is_spaces):
@@ -12,16 +13,18 @@
                 if(not torch.cuda.is_available()):
                     gr.HTML(f'''
                     <div class="gr-prose" style="max-width: 80%">
-                        <p>⚛ Automatic1111 Stable Diffusion Protogen x3.4 Web UI | Running model: darkstorm2150/ProtoGen_X3.4</p>
-                        <p>You can find more information on <a href="this model at civitai.com" style="target=" _blank"="">https://civitai.com/models/3666/protogen-x34-photorealism-official-release</a></p>  
-                        <p>Code by camenduru <a href="https://twitter.com/camenduru" style="target=" _blank"="">https://twitter.com/camenduru</p>
-                    </div>
+                    <p>⚛ Automatic1111 Stable Diffusion Protogen x3.4 Web UI | Running model: ProtoGen X3.4</p>
+                    <p>You can find more information on <a href="https://civitai.com/models/3666/protogen-x34-photorealism-official-release" style="target=" _blank"="">this model at civitai.com</a></p>
+                    <p>By using this space, You agree to the <a href="https://civitai.com/models/3666/protogen-x34-photorealism-official-release" style="target=" _blank"="">CreativeML Open RAIL-M License</a></p>     
+                    <p> Code by <a href="https://twitter.com/camenduru" style="target=" _blank"="">camenduru</a> </p>
+                </div>
                 ''')
                 else:
                     gr.HTML(f'''
                     <div class="gr-prose" style="max-width: 80%">
-                        <p>⚛ Automatic1111 Stable Diffusion Protogen x3.4 Web UI | Running model: darkstorm2150/ProtoGen_X3.4</p>
-                        <p>You can find more information on <a href="this model at civitai.com" style="target=" _blank"="">https://civitai.com/models/3666/protogen-x34-photorealism-official-release</a></p>  
-                        <p>Code by camenduru <a href="https://twitter.com/camenduru" style="target=" _blank"="">https://twitter.com/camenduru</p>
-                    </div>
+                    <p>⚛ Automatic1111 Stable Diffusion Protogen x3.4 Web UI | Running model: ProtoGen X3.4</p>
+                    <p>You can find more information on <a href="https://civitai.com/models/3666/protogen-x34-photorealism-official-release" style="target=" _blank"="">this model at civitai.com</a></p>
+                    <p>By using this space, You agree to the <a href="https://civitai.com/models/3666/protogen-x34-photorealism-official-release" style="target=" _blank"="">CreativeML Open RAIL-M License</a></p>     
+                    <p> Code by <a href="https://twitter.com/camenduru" style="target=" _blank"="">camenduru</a> </p>
+                </div>
                 ''')
