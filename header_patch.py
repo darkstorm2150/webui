@@ -22,8 +22,8 @@
                 else:
                     gr.HTML(f'''
                     <div class="gr-prose" style="max-width: 80%">
-                        <p>🚧 (WIP) Private Automatic1111 Stable Diffusion Web UI on 🤗 Hugging Face Spaces</p>
-                        <p>It is running on a GPU 🔥, you can <a href="https://huggingface.co/spaces/{os.environ['SPACE_ID']}/settings" style="text-decoration: underline" target="_blank">don't forget to remove the GPU attribution</a> once your are done playing with it&nbsp;&nbsp;<a style="display:inline-block" href="https://github.com/camenduru/stable-diffusion-webui-colab" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>&nbsp;&nbsp;<a style="display:inline-block" href="https://patreon.com/camenduru"><img style="margin: 0" alt="Become A Patreon" src="https://badgen.net/badge/become/a%20patron/F96854"></a>&nbsp;&nbsp;<a style="display:inline-block" href="https://ko-fi.com/camenduru" target="_blank"><img style="margin: 0" alt="Buy a Coffee" src="https://badgen.net/badge/buy/a%20coffee/green?icon=kofi"></a></p> 
+                        <p>Automatic1111 Stable Diffusion Web UI for Protogen x3.4</p>
+                        <p>Currently Stable, will be updating restrictions so everyone can enjoy a smooth experience</p> 
                         <p>📝 How to add private model or embed? 📺 Tutorial Video: <a href="https://youtu.be/jpxWRMino6c" style="target=" _blank"="">https://youtu.be/jpxWRMino6c</a> 🐣 Please follow me for new updates <a href="https://twitter.com/camenduru" style="target=" _blank"="">https://twitter.com/camenduru</a> </p>
                     </div>
                 ''')
